@@ -2,6 +2,16 @@
   width: 50%;
   margin: 3em auto;
 }
+.heading {
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+h1 {
+  font-size: 1.75em;
+  margin: 0;
+}
 .inputArea {
   text-align: center;
   font-size: 1em;
@@ -21,6 +31,7 @@
 h2 {
   font-size: 1em;
   margin: .75em 0;
+  color: gray;
 }
 .resultsList {
   width: 100%;
