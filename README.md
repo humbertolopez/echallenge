@@ -33,3 +33,5 @@ Enjoy (?), now the project might be running on ``http://localhost:3000``
 ### Some stuff I should do next:
 - Highlight the search query value on each title at the list of results.
 - Handle errors, it should show a message to the users if the response from the API couldn't be resolved.
+- Create a new Hook for the API call.
+- Tests!
