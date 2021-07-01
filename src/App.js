@@ -55,10 +55,9 @@ function App() {
         <div className="heading">
           <img src={octo}></img>
           <h1>Let's get some issues!</h1>
-          <p>Search for issues on React's GitHub repo.</p>
         </div>
         <div className="inputArea">
-          <input className="queryInput" ref={inputTimeout} onChange={(e) => issuesQuery(e)} value={inputValue}></input>
+          <input className="queryInput" placeholder="Search for issues on React's GitHub repo" ref={inputTimeout} onChange={(e) => issuesQuery(e)} value={inputValue}></input>
         </div>
         {queryResponse && <Results queryResponse={queryResponse} responseNumber={responseNumber} />}
       </div>
