@@ -4,13 +4,6 @@ import './App.css';
 import Results from './components/Results';
 import octo from './octo.png';
 
-//api
-//input centrado, semejante a google
-//componentes pequeños, no todo junto
-//puebas, al menos 3
-//enviar a Ale
-//debounce, investigar y aplicar
-
 function App() {
 
   const [inputValue,setInputValue] = useState('');
@@ -53,7 +46,7 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="heading">
-          <img src={octo}></img>
+          <img src={octo} alt="Github's Octocat"></img>
           <h1>Let's get some issues!</h1>
         </div>
         <div className="inputArea">
